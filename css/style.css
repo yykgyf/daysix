@@ -1,0 +1,30 @@
+body {
+  font-size: 0.12rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  overflow: hidden; }
+
+.active {
+  color: #617ef6;
+  border-bottom: 2px solid #617ef6; }
+
+.header {
+  height: 0.45rem;
+  line-height: 0.45rem;
+  border-bottom: 1px solid #eee; }
+  .header ul {
+    display: -webkit-flex; }
+    .header ul li {
+      -webkit-flex: 1;
+      text-align: center;
+      font-size: 0.14rem; }
+
+.content {
+  -webkit-flex: 1;
+  overflow-y: scroll; }
+
+/*# sourceMappingURL=style.css.map */
