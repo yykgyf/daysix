@@ -17,14 +17,13 @@
         <li>已过期</li>
     </ul>
 </div>
-<div class="content"></div>
+<div class="content">
+    <span>满减优惠</span>
+</div>
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript">
     $('.header ul').on('click','li',function () {
-        // console.log($(this).index());
-        var idx = $(this).index();
-        // console.log($(this).eq(idx));
-        $(this).eq(idx).addClass('active').siblings().removeClass('active');
+        $(this).addClass('active').siblings().removeClass('active');
     })
 </script>
 </body>
